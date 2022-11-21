@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+header img{
+    width: 500px;
+
+}
+
+header{
+    display:flex;
+    align-items: center;
+}
+
+
+section.top-page {
+    background: url("../images/iacouleur5.jpg");
+    background-size: cover;
+    height: 90vh;
+    padding: 25px;
+    box-shadow: rgb(152, 152, 152) 10px 10px 40px 10px
+}
+
+/* menu de navigation. */
+
+nav{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    justify-content: space-between;
+    width: 800px;
+   
+
+}
+
+nav li a{
+    color: aliceblue;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+
+
+.big-title{
+    color: aliceblue;
+    font-size: 20px;
+    border-color: black;
+    border-radius: 2px;
+    padding: 290px 30px;
+
+}
+
+.p1{
+    padding: 250px 20px;
+}
+
+.bouton{
+    background-color:rgb(240, 198, 228);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:black;
+    border-radius: 40%;
+    width: 60px;
+    box-shadow:rgb(253, 248, 248) 10px 10px 40px 10px;
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    margin-top: 60px;
+    font-style:inherit;
+    
+ }
+     
+ .formation{
+     display:flex;
+     justify-content: space-around;
+     margin-top: 80px;
+     align-items: center;
+     flex-direction:row
+     
+    
+ }
+ .p1{
+ 
+     margin-top: 20px;
+     width: 300px;
+     height: 500px;
+     text-align: center;
+     box-shadow:rgb(152, 152, 152) 10px 10px 40px 10px;
+     background-color: aliceblue;
+     padding-top: 50px;
+ }
+ 
+ h3{
+     text-align: center;
+ }
+ 
+ .video{
+     display:flex;
+     justify-content: space-around;  
+ }
+ 
+ .témoignages{
+     padding-top: 50px;
+     margin-top: 100px;
+     background-color: rgb(212, 234, 243);
+     box-shadow: rgb(152, 152, 152) 10px 10px 40px
+     
+ }
+
+.h3{
+    font-size: 70px;
+}
+
+.icone{
+    width: 150px;
+    
+ }
+
+.pied{
+    background-color:#373737;
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.lp{
+    width: 300px;
+ }
+ 
+.l{
+    width: 30px;
+    
+
+}
+
+div.video{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.presentation{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items:center;
+    justify-items: stretch;
+    background:url(../images/fond2.jpg);
+    backdrop-filter: blur(10px);
+    margin-top: 30px;
+    box-shadow: rgb(152, 152, 152) 10px 10px 40px
+
+   
+}
+
+.img3{
+    width: 700px;
+}
+
+.div1 .div2{
+    text-align: center;
+    text-size-adjust: 700px;
+    width: 700px;
+    background: url(../images/fond2.jpg);
+    background-size: 700px;
+    background-color: aqua;
+
+}
+
+.title2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #060c48;
+}
+
+section.partenaires{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+h2.part{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.awsstart{
+    background: url(../images/amazon.jpeg);
+    background-size: cover;
+    height: 70vh;
+    box-shadow: rgb(152, 152, 152) 10px 10px 40px
+}
+
+.big-title2{
+    display: flex;
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 300px;
+    font-weight: bold;
+
+    
+}
+.milieupage{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.information{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+     flex-direction:row;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding-left: 20px;
+     padding-right: 50px;
+     height: 70vh;
+     font-size: large;
+     text-align: left;
+    
+     
+
+}
+
+.p6{
+    height: fit-content;
+
+}
+
+.i2{
+    width: 100px;
+}
+
+.bottom{
+    display:flex;
+     justify-content: space-around;
+     margin-top: 80px;
+     align-items: center;
+     flex-direction:row
+}
+
+.p7{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow:rgb(152, 152, 152) 10px 10px 40px 10px;
+    background-color: aliceblue;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
